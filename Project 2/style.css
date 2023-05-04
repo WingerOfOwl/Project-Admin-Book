@@ -1,0 +1,265 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'comic sans ms';
+   background-color: #BFEAF5;
+} 
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: 'comic sans ms';
+    color:#EAFDFC;
+}
+
+.menu {
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #82AAE3;
+    z-index: 1;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: double;
+    color: aquamarine;
+}
+#toggle-bar{
+    display: none;
+}
+
+a.tbl-akun {
+    border-radius: 50px;
+    background: #E8A0BF;
+    margin-top: 20px;
+    padding: 10px 50px 10px 50px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-akun:hover {
+    background: #576CBC;
+}
+
+.tengah{
+    text-align: center;
+    width: 100%;
+    padding: 200px 0px 200px 0px;
+}
+.home {
+    display: inline-flex;
+    position: relative;
+}
+.menu-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.kartu-menu{
+    width: 30%;
+    margin: 0 auto;
+}
+.kartu-menu img {
+    width: 80%;
+    border-radius: 10%;
+}
+
+.kartu-menu p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #82AAE3;
+    margin-top: 20px;
+}
+
+.kartu-menu p:hover{
+    background: #576CBC;
+    text-decoration: double;
+    border-radius: 50px;
+    padding: 5px 50px 5px 50px;
+    color: aquamarine;
+}
+
+.book-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.kartu-book{
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px 0px 20px 0px;
+    z-index: 0;
+}
+.kartu-book img {
+    width: 50%;
+    border-radius: 10%;
+}
+.kartu-book2{
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px 0px 20px 0px;
+}
+.kartu-book2 img {
+    width: 55%;
+    border-radius: 10%;
+}
+
+.kartu-book2 p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #82AAE3;
+    margin-top: 20px;
+}
+
+.kartu-book2 p:hover{
+    background: #576CBC;
+    text-decoration: double;
+    border-radius: 50px;
+    padding: 5px 50px 5px 50px;
+    color: aquamarine;
+}
+
+
+.kartu-book p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #82AAE3;
+    margin-top: 20px;
+}
+
+.kartu-book p:hover{
+    background: #576CBC;
+    text-decoration: double;
+    border-radius: 50px;
+    padding: 5px 50px 5px 50px;
+    color: aquamarine;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 50px;
+    color: #576CBC;
+}
+
+table {
+    border-collapse: collapse;
+    position: relative;
+    margin: auto;
+    color: #576CBC;
+}
+
+table th,
+table td{
+   border: 3px solid #655DBB; 
+   padding: 7px 17px;
+}
+
+table thead th{
+    background-color: #655DBB;
+    color: aquamarine;
+}
+
+table tbody td{
+color: #1C82AD;
+}
+table tbody tr:nth-child(odd) td{
+    background-color:#F2DEBA;
+}
+table tbody tr:nth-child(even) td{
+    background-color:#F7C8E0;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper{
+        width: 100%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+       text-align: center;
+       margin: auto ; 
+       line-height: 60px;
+    }
+    nav .menu ul li {
+    display: none;
+    float: none;
+    }
+    .active{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 200px;
+        height: fit-content;
+        background-color: var(--main-color-2);
+        display: flex;
+        text-align: start;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 1rem 20px;
+    }
+
+    #toggle-bar{
+        width: 15%;
+        margin-top: 30px;
+        display: block;
+    }
+}
+        
