@@ -1,0 +1,27 @@
+*{
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'comic sans ms';
+       
+}
+body{
+    background: #BFEAF5;
+} 
+.inputnama{
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+@media only screen and (max-width: 1100px) {
+    .table-hover {
+        padding-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .table-hover {
+        padding-top: 15%;
+    }
+}
